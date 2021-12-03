@@ -9,16 +9,7 @@ const playSnareAudio= document.getElementById("snareAudio");
 const playTinkAudio = document.getElementById("tinkAudio");
 const playTomAudio= document.getElementById("tomAudio");
 
-//Text for each noise
-const showBoomText= document.getElementById("boomText");
-const showClapText= document.getElementById("clapText");
-const showHihatText= document.getElementById("hihatText");
-const showKickText= document.getElementById("kickText");
-const showOpenhatText= document.getElementById("openhatText");
-const showRideText= document.getElementById("rideText");
-const showSnareText=document.getElementById("snareText");
-const showTinkText=document.getElementById("tinkText")
-const showTomText=document.getElementById("tomText");
+
 
 
 //Key press function
@@ -30,15 +21,7 @@ playBoomAudio.pause()
 playBoomAudio.currentTime=0
 playBoomAudio.play();
 
-showBoomText.style.display="block";
-showClapText.style.display="none";
-showHihatText.style.display="none";
-showKickText.style.display="none";
-showOpenhatText.style.display="none";
-showRideText.style.display="none";
-showSnareText.style.display="none";
-showTinkText.style.display="none";
-showTomText.style.display="none";
+
 
 
 } else if(event.key=='s'){
@@ -46,46 +29,21 @@ showTomText.style.display="none";
     playClapAudio.currentTime=0
     playClapAudio.play();
 
-showBoomText.style.display="none";
-showClapText.style.display="block";
-showHihatText.style.display="none";
-showKickText.style.display="none";
-showOpenhatText.style.display="none";
-showRideText.style.display="none";
-showSnareText.style.display="none";
-showTinkText.style.display="none";
-showTomText.style.display="none";
+
 
 } else if(event.key=='d'){
     playHihatAudio.pause()
     playHihatAudio.currentTime=0
     playHihatAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="block";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
-
+  
 
 } else if(event.key=='f'){
     playKickAudio.pause()
     playKickAudio.currentTime=0
     playKickAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="block";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+  
 
 
 } else if(event.key=='g'){
@@ -93,30 +51,13 @@ showTomText.style.display="none";
     playOpenhatAudio.currentTime=0
     playOpenhatAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="block";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+ 
 
 } else if(event.key=='h'){
     playRideAudio.pause()
     playRideAudio.currentTime=0
     playRideAudio.play();
     
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="block";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
 
 
     
@@ -125,15 +66,6 @@ showTomText.style.display="none";
     playSnareAudio.currentTime=0
     playSnareAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="block";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
 
 
 }else if(event.key=='k'){
@@ -141,31 +73,14 @@ showTomText.style.display="none";
     playTinkAudio.currentTime=0
     playTinkAudio.play();
     
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="block";
-    showTomText.style.display="none";
-
+   
 
 } else if (event.key=='l'){
     playTomAudio.pause()
     playTomAudio.currentTime=0
     playTomAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="block";
+
 }
 
 
@@ -191,15 +106,7 @@ boomButt.addEventListener("click", ()=>{
     playBoomAudio.currentTime=0
     playBoomAudio.play();
 
-    showBoomText.style.display="block";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+   
 })
 
 clapButt.addEventListener("click", ()=>{
@@ -208,15 +115,7 @@ clapButt.addEventListener("click", ()=>{
     playClapAudio.currentTime=0
     playClapAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="block";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+ 
 })
 
 
@@ -226,15 +125,7 @@ hihatButt.addEventListener("click", ()=>{
     playHihatAudio.currentTime=0
     playHihatAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="block";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+
 })
 
 
@@ -244,15 +135,7 @@ kickButt.addEventListener("click", ()=>{
     playKickAudio.currentTime=0
     playKickAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="block";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+    
 })
 
 
@@ -262,15 +145,7 @@ openhatButt.addEventListener("click", ()=>{
     playOpenhatAudio.currentTime=0
     playOpenhatAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="block";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+   
 })
 
 
@@ -280,15 +155,7 @@ rideButt.addEventListener("click", ()=>{
     playRideAudio.currentTime=0
     playRideAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="block";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+  
 })
 
 snareButt.addEventListener("click", ()=>{
@@ -297,15 +164,7 @@ snareButt.addEventListener("click", ()=>{
     playSnareAudio.currentTime=0
     playSnareAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="block";
-    showTinkText.style.display="none";
-    showTomText.style.display="none";
+    
 })
 
 tinkButt.addEventListener("click", ()=>{
@@ -314,15 +173,7 @@ tinkButt.addEventListener("click", ()=>{
     playTinkAudio.currentTime=0
     playTinkAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="block";
-    showTomText.style.display="none";
+   
 })
 
 tomButt.addEventListener("click", ()=>{
@@ -331,13 +182,4 @@ tomButt.addEventListener("click", ()=>{
     playTomAudio.currentTime=0
     playTomAudio.play();
 
-    showBoomText.style.display="none";
-    showClapText.style.display="none";
-    showHihatText.style.display="none";
-    showKickText.style.display="none";
-    showOpenhatText.style.display="none";
-    showRideText.style.display="none";
-    showSnareText.style.display="none";
-    showTinkText.style.display="none";
-    showTomText.style.display="block";
 })
